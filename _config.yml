@@ -27,3 +27,6 @@ sphinx:
     jupyterlite_contents:
       - content/
     html_show_sourcelink: false
+    html_sidebars:
+      "lab/intro": []
+      "task1/intro": []
