@@ -13,9 +13,13 @@ This task requires you to evaluate a provided physics-informed surrogate model o
 
 ## How to use this environment
 
-This notebook runs in your browser — no local Python installation needed. Click the rocket icon (🚀) at the top of any notebook page and select **JupyterLite** to open a live, editable version. Your work **does not persist automatically** between sessions — download your notebook before closing the tab.
+Click **Launch Task Notebook** below to open an interactive version — Python runs in your browser, no installation needed. Your work **does not persist automatically** between sessions; use **File → Save** inside the notebook and **File → Download** before closing the tab.
 
-Open the **Task 1 Notebook** in the left sidebar to begin.
+```{jupyterlite} task1_pa.ipynb
+:height: 800px
+:prompt: Launch Task 1 notebook
+:prompt_color: "#2d6a4f"
+```
 
 ---
 

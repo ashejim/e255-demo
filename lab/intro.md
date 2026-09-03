@@ -18,4 +18,12 @@ This is the core skill of Unit 2: given a surrogate model that claims to respect
 3. Visualise the residual distribution across the dataset
 4. Write a two-sentence engineering interpretation
 
-Open the **Lab Notebook** in the left sidebar to begin.
+Click **Launch Lab** below to open an interactive version — Python runs in your browser, no installation needed.
+
+> **Save your work:** JupyterLite does not auto-save to a server. Use **File → Save** (Ctrl+S) inside the notebook, and **File → Download** before closing the tab to keep your work.
+
+```{jupyterlite} lab_pinn.ipynb
+:height: 700px
+:prompt: Launch interactive lab notebook
+:prompt_color: "#3776AB"
+```
