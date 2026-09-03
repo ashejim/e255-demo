@@ -1,0 +1,29 @@
+title: "E255 — AI for Engineering and Scientific Discovery"
+author: "WGU MSAIES Program"
+logo: ""
+
+execute:
+  execute_notebooks: "off"   # JupyterLite handles live execution; build is static
+
+html:
+  use_repository_button: true
+  use_issues_button: false
+  home_page_in_navbar: false
+  extra_navbar: ""
+
+launch_buttons:
+  jupyterlite: true
+  notebook_interface: "jupyterlab"
+
+repository:
+  url: https://github.com/ashejim/e255-demo
+  branch: main
+  path_to_book: "."
+
+sphinx:
+  extra_extensions:
+    - jupyterlite_sphinx
+  config:
+    jupyterlite_contents:
+      - content/
+    html_show_sourcelink: false

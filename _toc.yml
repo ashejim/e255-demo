@@ -1,0 +1,9 @@
+format: jb-book
+root: intro
+chapters:
+  - file: lab/intro
+    sections:
+      - file: lab/lab_pinn
+  - file: task1/intro
+    sections:
+      - file: task1/task1_pa
