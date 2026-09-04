@@ -28,7 +28,11 @@ sphinx:
   config:
     jupyterlite_contents:
       - content/
+      - lab/lab_pinn.ipynb
+      - task1/task1_pa.ipynb
     html_show_sourcelink: false
     html_sidebars:
       "lab/intro": []
       "task1/intro": []
+    html_theme_options:
+      show_toc_level: 0

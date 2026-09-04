@@ -1,3 +1,7 @@
+---
+notoc: true
+---
+
 # Learning Lab: Evaluating a Physics-Constrained Model
 
 **Unit 2 · Lesson 2** — Physically Constrained Surrogate Models
@@ -6,24 +10,30 @@ In this lab you are given a pre-trained physics-informed neural network (PINN) t
 
 This is the core skill of Unit 2: given a surrogate model that claims to respect physics, can you verify that claim with data?
 
-## Learning objectives addressed
+**Learning objectives:** 8.1-41 Evaluate a trained model's adherence to physical constraints · 8.1-42 Interpret physical-consistency failures in terms of engineering reliability
 
-- 8.1-41 Evaluate a trained model's adherence to domain-specific physical constraints
-- 8.1-42 Interpret physical-consistency failures in terms of engineering reliability
+> **Save your work:** JupyterLite does not auto-save. Use **File → Save** (Ctrl+S) inside the notebook, then **File → Download** before closing the tab.
 
-## What you will do
-
-1. Load the provided pre-trained PINN (no training required)
-2. Complete a marked cell to compute the energy-balance residual
-3. Visualise the residual distribution across the dataset
-4. Write a two-sentence engineering interpretation
-
-Click **Launch Lab** below to open an interactive version — Python runs in your browser, no installation needed.
-
-> **Save your work:** JupyterLite does not auto-save to a server. Use **File → Save** (Ctrl+S) inside the notebook, and **File → Download** before closing the tab to keep your work.
-
-```{jupyterlite} lab_pinn.ipynb
-:height: 700px
-:prompt: Launch interactive lab notebook
-:prompt_color: "#3776AB"
+```{raw} html
+<div style="margin-top:1rem;">
+  <div id="lab-btn" style="text-align:center;padding:2rem 0 1rem;">
+    <button
+      onclick="var f=document.getElementById('lab-frame');
+               f.setAttribute('src','../lite/notebooks/index.html?path=lab_pinn.ipynb');
+               document.getElementById('lab-btn').style.display='none';
+               f.style.display='block';"
+      style="background:#3776AB;color:#fff;padding:.75rem 2.5rem;border:none;
+             border-radius:.4rem;font-size:1.05rem;font-weight:600;cursor:pointer;
+             box-shadow:0 2px 6px rgba(0,0,0,.2);">
+      &#x1F680; Launch interactive lab notebook
+    </button>
+    <p style="color:#666;margin:.6rem 0 0;font-size:.85rem;">
+      Python runs in your browser via WebAssembly &mdash; no installation needed
+    </p>
+  </div>
+  <iframe id="lab-frame" src="" allow="cross-origin-isolated"
+    style="display:none;width:100%;height:calc(100vh - 80px);
+           min-height:600px;border:none;">
+  </iframe>
+</div>
 ```
