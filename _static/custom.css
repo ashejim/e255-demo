@@ -1,0 +1,14 @@
+/* Expand JupyterLite embeds to use the full content area width.
+   jupyterlite_sphinx wraps the iframe; without this the content column
+   max-width and sphinx-book-theme's grid constrain it to ~700 px. */
+
+.bd-main .bd-content .bd-article-container {
+  max-width: 100% !important;
+}
+
+.jupyterlite_sphinx,
+.jupyterlite_sphinx > div,
+.jupyterlite_sphinx iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+}

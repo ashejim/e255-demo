@@ -10,6 +10,8 @@ html:
   use_issues_button: false
   home_page_in_navbar: false
   extra_navbar: ""
+  extra_css:
+    - _static/custom.css
 
 launch_buttons:
   jupyterlite: true
